@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rodzic" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="login.RodzicController">
+    <MenuButton layoutX="14.0" layoutY="8.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="77.0" style="-fx-background-color: #00FF33;" text="Menu" textFill="WHITE" AnchorPane.bottomAnchor="554.0">
+        <items>
+            <MenuItem fx:id="idMenuKlasa" mnemonicParsing="false" onAction="#menu" text="Klasy" />
+            <MenuItem fx:id="idMenuNauczyciel" mnemonicParsing="false" onAction="#menu" text="Nauczyciele" />
+            <MenuItem fx:id="idMenuPrzedmiot" mnemonicParsing="false" onAction="#menu" text="Przedmioty" />
+            <MenuItem mnemonicParsing="false" onAction="#menu" text="Rodzice" />
+            <MenuItem fx:id="idMenuUczen" mnemonicParsing="false" onAction="#menu" text="Uczniowie" />
+
+        </items>
+      <font>
+         <Font size="14.0" />
+      </font>
+    </MenuButton>
+    <TableView fx:id="idTabela" layoutX="43.0" layoutY="100.0" prefHeight="363.0" prefWidth="514.0" AnchorPane.bottomAnchor="157.0">
+        <columns>
+            <TableColumn fx:id="idTabelaImie" prefWidth="102.4000244140625" text="IMIE" />
+            <TableColumn fx:id="idTabelaNazwisko" prefWidth="108.79998779296875" text="NAZWISKO" />
+            <TableColumn fx:id="idTabelaAdres" prefWidth="171.20001220703125" text="ADRES" />
+            <TableColumn fx:id="idTabelaTelefon" prefWidth="136.79998779296875" text="TELEFON" />
+        </columns>
+    </TableView>
+    <TextField fx:id="newImie" layoutX="43.0" layoutY="464.0" prefHeight="25.0" prefWidth="77.0" promptText="imie" visible="false" />
+    <TextField fx:id="newNazwisko" layoutX="120.0" layoutY="464.0" prefHeight="25.0" prefWidth="71.0" promptText="nazwisko" visible="false" />
+    <TextField fx:id="newAdres" layoutX="191.0" layoutY="464.0" prefHeight="25.0" prefWidth="77.0" promptText="adres" visible="false" />
+    <TextField fx:id="newTelefon" layoutX="269.0" layoutY="464.0" prefHeight="25.0" prefWidth="77.0" promptText="telefon" visible="false" />
+    <Button fx:id="newPokaz" layoutX="576.0" layoutY="90.0" mnemonicParsing="false" onAction="#newPokazPola" prefHeight="30.0" prefWidth="178.0" style="-fx-background-color: #00FF33;" text="Dodaj nowego rodzica" textFill="WHITE">
+      <font>
+         <Font size="14.0" />
+      </font></Button>
+    <Button layoutX="576.0" layoutY="168.0" mnemonicParsing="false" onAction="#deleteRodzicOnAction" prefHeight="30.0" prefWidth="178.0" style="-fx-background-color: #00FF33;" text="Usuń zaznaczonego rodzica" textFill="WHITE" />
+    <TextField fx:id="editImie" layoutX="43.0" layoutY="500.0" prefHeight="25.0" prefWidth="77.0" promptText="imie" visible="false" />
+    <TextField fx:id="editNazwisko" layoutX="120.0" layoutY="500.0" prefHeight="25.0" prefWidth="71.0" promptText="nazwisko" visible="false" />
+    <TextField fx:id="editAdres" layoutX="191.0" layoutY="500.0" prefHeight="25.0" prefWidth="77.0" promptText="adres" visible="false" />
+    <TextField fx:id="editTelefon" layoutX="269.0" layoutY="500.0" prefHeight="25.0" prefWidth="77.0" promptText="telefon" visible="false" />
+    <Button fx:id="editPokaz" layoutX="576.0" layoutY="128.0" mnemonicParsing="false" onAction="#editPokazPola" prefHeight="30.0" prefWidth="178.0" style="-fx-background-color: #00FF33;" text="Edytuj zaznaczonego rodzica" textFill="WHITE" />
+    <Button fx:id="newZapisz" layoutX="363.0" layoutY="464.0" mnemonicParsing="false" onAction="#addRodzicOnAction" prefHeight="25.0" prefWidth="49.0" text="zapisz" visible="false" />
+    <Button fx:id="editZapisz" layoutX="363.0" layoutY="500.0" mnemonicParsing="false" onAction="#editRodzicOnAction" text="zapisz" visible="false" />
+    <Label layoutX="342.0" layoutY="14.0" text="Rodzice">
+        <font>
+            <Font size="26.0" />
+        </font>
+    </Label>
+   <Button fx:id="btnWyloguj" layoutX="639.0" layoutY="21.0" mnemonicParsing="false" onAction="#btnWyloguj" text="Wyloguj się" />
+
+</AnchorPane>

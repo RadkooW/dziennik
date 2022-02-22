@@ -81,8 +81,8 @@ import java.sql.ResultSet;
                         Parent root = null;
 
 
-                            root = FXMLLoader.load(getClass().getResource("../admin/Klasa.fxml"));
-
+//                            root = FXMLLoader.load(getClass().getResource("../admin/Klasa.fxml"));
+                            root = FXMLLoader.load(App.class.getResource("Klasa.fxml"));
                         primaryStage.setScene(new Scene(root, 800, 600));
                         primaryStage.show();
 
