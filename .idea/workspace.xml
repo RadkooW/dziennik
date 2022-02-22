@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Projekt:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="991f6800-b248-4938-a419-98ef58c5bfc4" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="248q3jYWAiPkco9iRVFPEi3s9bS" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RunManager" selected="JAR Application.Projekt.jar">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="login.App" />
+      <module name="system_zarzadzania" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="login.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Projekt.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/out/artifacts/Dziennik_Elektroniczny_jar/Dziennik_Elektroniczny.jar" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.App" />
+      <item itemvalue="JAR Application.Projekt.jar" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JAR Application.Projekt.jar" />
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="991f6800-b248-4938-a419-98ef58c5bfc4" name="Default Changelist" comment="" />
+      <created>1643022364811</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1643022364811</updated>
+      <workItem from="1643312399974" duration="391000" />
+      <workItem from="1643312841631" duration="536000" />
+      <workItem from="1643313534750" duration="226000" />
+      <workItem from="1643561143499" duration="4822000" />
+      <workItem from="1643634813376" duration="65000" />
+      <workItem from="1644244457196" duration="3332000" />
+      <workItem from="1644932387771" duration="5564000" />
+      <workItem from="1644943453206" duration="1811000" />
+      <workItem from="1644945663547" duration="117000" />
+      <workItem from="1645018398470" duration="233000" />
+      <workItem from="1645044386343" duration="4442000" />
+      <workItem from="1645101391800" duration="2371000" />
+      <workItem from="1645108523421" duration="40000" />
+      <workItem from="1645200202805" duration="614000" />
+      <workItem from="1645271342152" duration="13046000" />
+      <workItem from="1645366453140" duration="3983000" />
+      <workItem from="1645448204484" duration="17000" />
+      <workItem from="1645470227637" duration="7307000" />
+      <workItem from="1645478781735" duration="105000" />
+      <workItem from="1645479556199" duration="175000" />
+      <workItem from="1645479768333" duration="122000" />
+      <workItem from="1645479954588" duration="24000" />
+      <workItem from="1645533763691" duration="4755000" />
+      <workItem from="1645539127901" duration="7841000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PROJEKT$Main.ic" NAME="Main Coverage Results" MODIFIED="1645045792286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>uczen.*</FILTER>
+    </SUITE>
+  </component>
+</project>

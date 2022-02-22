@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Projekt:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Projekt_jar</output-path>
+    <root id="archive" name="Dziennik_Elektroniczny.jar">
+      <element id="module-output" name="system_zarzadzania" />
+      <element id="library" level="project" name="pdf" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/mysql-connector-java-8.0.24.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/protobuf-java-3.11.4.jar" path-in-jar="/" />
+      <element id="library" level="project" name="iText7-Core-7.1.15" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/itextpdf-5.5.13.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/javafx-fxml-12.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/javafx-fxml-12-win.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/javafx-controls-12.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/javafx-controls-12-win.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/javafx-graphics-12.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/javafx-graphics-12-win.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/javafx-base-12.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/lib/javafx-base-12-win.jar" path-in-jar="/" />
+      <element id="library" level="project" name="itextpdf-5.5.13.2" />
+    </root>
+  </artifact>
+</component>

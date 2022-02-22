@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="klasa" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="admin.KlasaController">
+    <MenuButton layoutX="14.0" layoutY="8.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="77.0" style="-fx-background-color: #00FF33;" text="Menu" textFill="WHITE">
+        <items>
+            <MenuItem mnemonicParsing="false" onAction="#menu" text="Klasy" />
+            <MenuItem fx:id="idMenuNauczyciel" mnemonicParsing="false" onAction="#menu" text="Nauczyciele" />
+            <MenuItem fx:id="idMenuPrzedmiot" mnemonicParsing="false" onAction="#menu" text="Przedmioty" />
+            <MenuItem fx:id="idMenuRodzic" mnemonicParsing="false" onAction="#menu" text="Rodzice" />
+            <MenuItem fx:id="idMenuUczen" mnemonicParsing="false" onAction="#menu" text="Uczniowie" />
+
+
+
+
+        </items>
+      <font>
+         <Font size="14.0" />
+      </font>
+    </MenuButton>
+
+    <Label layoutX="358.0" layoutY="8.0" text="Klasy">
+        <font>
+            <Font size="26.0" />
+        </font>
+    </Label>
+    <Button fx:id="idZapisz" layoutX="274.0" layoutY="470.0" mnemonicParsing="false" onAction="#addKlasaOnAction" text="Zapisz" visible="false" />
+    <TextField fx:id="idNazwa" layoutX="111.0" layoutY="470.0" promptText="Nazwa klasy" visible="false" />
+   <TableView fx:id="idTabelaKlas" layoutX="86.0" layoutY="65.0" prefHeight="378.0" prefWidth="134.0" style="-fx: #70bfff;">
+     <columns>
+       <TableColumn fx:id="idTabelaNazwaKlasy" prefWidth="133.60001220703126" text="NAZWA KLASY" />
+     </columns>
+   </TableView>
+   <Button fx:id="newPokaz" layoutX="566.0" layoutY="90.0" mnemonicParsing="false" onAction="#newPokazPola" prefHeight="30.0" prefWidth="178.0" style="-fx-background-color: #00FF33;" text="Dodaj nową klasę" textFill="WHITE">
+      <font>
+         <Font size="14.0" />
+      </font></Button>
+   <Button fx:id="idUsun" layoutX="566.0" layoutY="128.0" mnemonicParsing="false" onAction="#deleteKlasaOnAction" prefHeight="30.0" prefWidth="178.0" style="-fx-background-color: #00FF33;" text="Usuń zaznaczoną klasę" textFill="WHITE">
+      <font>
+         <Font size="14.0" />
+      </font></Button>
+
+   <Button fx:id="btnWyloguj" layoutX="629.0" layoutY="21.0" mnemonicParsing="false" onAction="#btnWyloguj" text="Wyloguj się" />
+</AnchorPane>
