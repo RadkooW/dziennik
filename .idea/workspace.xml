@@ -7,79 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="991f6800-b248-4938-a419-98ef58c5bfc4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Projekt_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/system_zarzadzania_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/admin/AdminMenu.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/admin/AdminMenu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/admin/Klasa.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/admin/Klasa.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/admin/KlasaController.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/admin/KlasaController.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/admin/Nauczyciel.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/admin/Nauczyciel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/admin/NauczycielController.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/admin/NauczycielController.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/admin/Przedmiot.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/admin/Przedmiot.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/admin/PrzedmiotController.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/admin/PrzedmiotController.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/admin/Rodzic.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/admin/Rodzic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/admin/RodzicController.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/admin/RodzicController.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/admin/Uczen.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/admin/Uczen.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/admin/UczenController.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/admin/UczenController.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/admin/class-use/AdminMenu.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/admin/class-use/AdminMenu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/admin/class-use/Klasa.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/admin/class-use/Klasa.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/admin/class-use/KlasaController.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/admin/class-use/KlasaController.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/admin/class-use/Nauczyciel.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/admin/class-use/Nauczyciel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/admin/class-use/NauczycielController.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/admin/class-use/NauczycielController.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/admin/class-use/Przedmiot.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/admin/class-use/Przedmiot.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/admin/class-use/PrzedmiotController.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/admin/class-use/PrzedmiotController.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/admin/class-use/Rodzic.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/admin/class-use/Rodzic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/admin/class-use/RodzicController.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/admin/class-use/RodzicController.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/admin/class-use/Uczen.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/admin/class-use/Uczen.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDoc/admin/class-use/UczenController.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDoc/admin/class-use/UczenController.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Dziennik_Elektroniczny_jar/Dziennik_Elektroniczny.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/Projekt_jar/Dziennik_Elektroniczny.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Dziennik_Elektroniczny/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Dziennik_Elektroniczny/admin/Klasa.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Dziennik_Elektroniczny/admin/Nauczyciel.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Dziennik_Elektroniczny/admin/Przedmiot.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Dziennik_Elektroniczny/admin/Rodzic.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Dziennik_Elektroniczny/admin/Uczen.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Dziennik_Elektroniczny/login/login.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/system_zarzadzania/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/system_zarzadzania/admin/AdminMenu.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/system_zarzadzania/admin/Klasa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/system_zarzadzania/admin/Klasa.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/login/Klasa.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/system_zarzadzania/admin/KlasaController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/system_zarzadzania/admin/Nauczyciel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/system_zarzadzania/admin/Nauczyciel.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/login/Nauczyciel.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/system_zarzadzania/admin/NauczycielController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/system_zarzadzania/admin/Przedmiot.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/system_zarzadzania/admin/Przedmiot.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/login/Przedmiot.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/system_zarzadzania/admin/PrzedmiotController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/system_zarzadzania/admin/Rodzic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/system_zarzadzania/admin/Rodzic.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/login/Rodzic.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/system_zarzadzania/admin/RodzicController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/system_zarzadzania/admin/Uczen.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/system_zarzadzania/admin/Uczen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/login/Uczen.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/system_zarzadzania/admin/UczenController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/system_zarzadzania/login/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/system_zarzadzania/login/LoginController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/system_zarzadzania/login/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/system_zarzadzania/login/connectorDB/DBConnect.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/system_zarzadzania/login/login.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/AdminMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/login/AdminMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/Klasa.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/Klasa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/login/Klasa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/KlasaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/login/KlasaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/Nauczyciel.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/Nauczyciel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/login/Nauczyciel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/NauczycielController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/login/NauczycielController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/Przedmiot.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/Przedmiot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/login/Przedmiot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/PrzedmiotController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/login/PrzedmiotController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/Rodzic.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/Rodzic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/login/Rodzic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/RodzicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/login/RodzicController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/Uczen.fxml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/Uczen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/login/Uczen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/admin/UczenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/login/UczenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/login/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/login/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/system_zarzadzania/login/KlasaController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/system_zarzadzania/login/KlasaController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/login/KlasaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/login/KlasaController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,7 +121,7 @@
       <workItem from="1645479954588" duration="24000" />
       <workItem from="1645533763691" duration="4755000" />
       <workItem from="1645539127901" duration="7841000" />
-      <workItem from="1645558010287" duration="1243000" />
+      <workItem from="1645558010287" duration="1600000" />
     </task>
     <servers />
   </component>

@@ -162,7 +162,11 @@ public class KlasaController {
             pst.executeUpdate();
 
         } catch (SQLException e) {
-            e.printStackTrace();
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.setTitle("Blad");
+            alert.setHeaderText("Nie mozna usunac zaznaczonej klasy");
+            alert.setContentText("Dana klasa jest juz przypisana do ucznia");
+            alert.showAndWait();
         }
     }
 
