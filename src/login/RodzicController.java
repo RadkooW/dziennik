@@ -302,7 +302,19 @@ public class RodzicController {
 
     /**
      * edytowanie rodzica w bazie danch
+     * edytowanie rodzica w bazie danch
      *
+     * @param imie              przechowuje imie matki
+     * @param nazwisko          przechowuje nazwisko matki
+     * @param imie1             przechowuje imie ojca
+     * @param nazwisko1         przechowuje nazwisko ojca
+     * @param adres             przechowuje adres
+     * @param telefon           przechowuje telefon
+     * @param imieCondition     przechowuje imie matki przed wprowadzeniem zmian
+     * @param nazwiskoCondition przechowuje nazwisko matki przed wprowadzeniem zmian
+     * @param imie1Condition     przechowuje imie ojca przed wprowadzeniem zmian
+     * @param nazwisko1Condition przechowuje nazwisko ojca przed wprowadzeniem zmian
+     * @param telefonCondition  przechowuje telefon przed wprowadzeniem zmian
      */
     public void editRodzic(String imie, String nazwisko,String imie1, String nazwisko1, String adres, int telefon,
                            String imieCondition, String nazwiskoCondition,String imie1Condition, String nazwisko1Condition, String adresCondition, int telefonCondition) {
@@ -393,7 +405,7 @@ public class RodzicController {
             alert.showAndWait();
 
 
-            e.printStackTrace();
+
         }
     }
 

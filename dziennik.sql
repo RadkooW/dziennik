@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Czas generowania: 22 Lut 2022, 15:10
+-- Czas generowania: 23 Lut 2022, 19:13
 -- Wersja serwera: 10.4.21-MariaDB
 -- Wersja PHP: 8.0.12
 
@@ -45,7 +45,7 @@ INSERT INTO `klasa` (`id_klasa`, `nazwa`) VALUES
 (18, '2C'),
 (19, '3A'),
 (20, '3B'),
-(24, '3C');
+(28, '3C');
 
 -- --------------------------------------------------------
 
@@ -90,7 +90,7 @@ INSERT INTO `nauczyciel` (`id_nauczyciel`, `imie`, `nazwisko`, `adres`, `telefon
 (10, 'Arleta', 'Wierzbicka', 'Grunwaldzka 15', 685743232),
 (11, 'Emil', 'Kubiak', 'Zduńska 1', 445323332),
 (12, 'Iwona', 'Grzelak', 'Brzeźna 32', 867543885),
-(16, 'Bronisław', 'Brzozowski', 'Sosnowa', 523552343);
+(16, 'Bronisław', 'Brzozowski', 'Sosnowa 22', 523552343);
 
 -- --------------------------------------------------------
 
@@ -115,7 +115,8 @@ INSERT INTO `przedmiot` (`id_przedmiot`, `id_klasa`, `nazwa`, `id_nauczyciel`) V
 (7, 15, 'Informatyka', 10),
 (8, 16, 'Język Polski', 11),
 (9, 19, 'Język Angielski', 12),
-(14, 20, 'Biologia', 9);
+(14, 20, 'Biologia', 9),
+(15, 17, 'Język Niemiecki', 12);
 
 -- --------------------------------------------------------
 
@@ -127,6 +128,8 @@ CREATE TABLE `rodzic` (
   `id_rodzic` int(11) NOT NULL,
   `imie` text NOT NULL,
   `nazwisko` text NOT NULL,
+  `imie1` text NOT NULL,
+  `nazwisko1` text NOT NULL,
   `adres` text NOT NULL,
   `telefon` int(9) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
@@ -135,14 +138,12 @@ CREATE TABLE `rodzic` (
 -- Zrzut danych tabeli `rodzic`
 --
 
-INSERT INTO `rodzic` (`id_rodzic`, `imie`, `nazwisko`, `adres`, `telefon`) VALUES
-(12, 'Witold', 'Lipiński', 'Różana 16', 432423421),
-(13, 'Alicja', 'Kozak', 'Bielawska 76', 432412123),
-(14, 'Aneta', 'Kurek', 'Akacjowa 12', 765578564),
-(15, 'Leon', 'Borowski', 'Tulipanowa 17', 432123443),
-(16, 'Krzysztof', 'Szewczyk', 'Stolarska 4', 765454323),
-(17, 'Aneta', 'Czajkowska', 'Szkolna 15', 876765456),
-(18, 'Dariusz', 'Kamiński', 'Kujawska 3 ', 753473453);
+INSERT INTO `rodzic` (`id_rodzic`, `imie`, `nazwisko`, `imie1`, `nazwisko1`, `adres`, `telefon`) VALUES
+(12, 'Marta', 'Lipińska', 'Witold', 'Lipiński', 'Różana 16', 432423421),
+(13, 'Alicja', 'Kozak', 'Mieczysław', 'Kozak', 'Bielawska 76', 432412123),
+(16, 'Renata', 'Szewczyk', 'Krzysztof', 'Szewczyk', 'Stolarska 4', 765454323),
+(17, 'Aneta', 'Czajkowska', 'Dariusz', 'Czajkowski', 'Szkolna 15', 876765456),
+(18, 'Marta', 'Kamińska', 'Wojciech', 'Kamiński', 'Kujawska 3 ', 753473453);
 
 -- --------------------------------------------------------
 
@@ -169,7 +170,7 @@ INSERT INTO `uczen` (`id_uczen`, `imie`, `nazwisko`, `adres`, `telefon`, `id_rod
 (15, 'Daniel', 'Kozak', 'Bielawska 76', 324236658, 13, 16),
 (16, 'Krystian', 'Szewczyk', 'Stolarska 4', 234237547, 16, 19),
 (17, 'Maria', 'Kamińska', 'Kujawska 3', 856856856, 18, 18),
-(18, 'Maja', 'Czajkowska', 'Szkolna 15', 764534234, 17, 20);
+(18, 'Milena', 'Czajkowska', 'Szkolna 15', 764534234, 17, 20);
 
 --
 -- Indeksy dla zrzutów tabel
@@ -223,7 +224,7 @@ ALTER TABLE `uczen`
 -- AUTO_INCREMENT dla tabeli `klasa`
 --
 ALTER TABLE `klasa`
-  MODIFY `id_klasa` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
+  MODIFY `id_klasa` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=29;
 
 --
 -- AUTO_INCREMENT dla tabeli `logowanie`
@@ -241,19 +242,19 @@ ALTER TABLE `nauczyciel`
 -- AUTO_INCREMENT dla tabeli `przedmiot`
 --
 ALTER TABLE `przedmiot`
-  MODIFY `id_przedmiot` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `id_przedmiot` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 
 --
 -- AUTO_INCREMENT dla tabeli `rodzic`
 --
 ALTER TABLE `rodzic`
-  MODIFY `id_rodzic` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+  MODIFY `id_rodzic` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
 
 --
 -- AUTO_INCREMENT dla tabeli `uczen`
 --
 ALTER TABLE `uczen`
-  MODIFY `id_uczen` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+  MODIFY `id_uczen` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
 
 --
 -- Ograniczenia dla zrzutów tabel

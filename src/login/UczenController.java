@@ -416,6 +416,12 @@ public class UczenController {
     }
     /**
      * dodawanie ucznia do bazy danych
+            * @param imie        przechowuje imie
+            * @param nazwisko    przechowuje nazwisko
+             * @param adres       przechowuje adres
+             * @param telefon     przechowuje telefon
+             * @param nazwaKlasy  przechowuje nazwe klasy
+            * @param daneRodzica przechowuje dane rodzica
      */
     public void addUczen(String imie, String nazwisko, String adres, int telefon, String nazwaKlasy, String daneRodzica) {
 

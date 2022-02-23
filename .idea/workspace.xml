@@ -7,6 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="991f6800-b248-4938-a419-98ef58c5bfc4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dziennik.sql" beforeDir="false" afterPath="$PROJECT_DIR$/dziennik.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/system_zarzadzania_jar/system_zarzadzania.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/system_zarzadzania_jar/system_zarzadzania.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/system_zarzadzania/login/RodzicController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/system_zarzadzania/login/RodzicController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/login/RodzicController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/login/RodzicController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/login/UczenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/login/UczenController.java" afterDir="false" />
@@ -123,7 +126,7 @@
       <workItem from="1645533763691" duration="4755000" />
       <workItem from="1645539127901" duration="7841000" />
       <workItem from="1645558010287" duration="10462000" />
-      <workItem from="1645622067576" duration="8018000" />
+      <workItem from="1645622067576" duration="9411000" />
     </task>
     <servers />
   </component>
