@@ -126,7 +126,7 @@ public class UczenController {
         idTabelaRodzic1.setCellValueFactory(new PropertyValueFactory<>("rodzic1"));
         idTabelaKlasa.setCellValueFactory(new PropertyValueFactory<>("klasa"));
 
-        System.out.println(rodzice1);
+
 
         idTabela.setItems(ol);
         return ol;

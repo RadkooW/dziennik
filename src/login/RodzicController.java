@@ -325,7 +325,7 @@ public class RodzicController {
                 pst.setInt(12, telefonCondition);
 
                 pst.executeUpdate();
-            System.out.println("edytowano ==================================");
+
 
         } catch (SQLException e) {
             e.printStackTrace();
@@ -386,8 +386,11 @@ public class RodzicController {
 
         } catch (SQLException e) {
 
-            //TODO: dodać alert
-            System.out.println("alert");
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.setTitle("Blad");
+            alert.setHeaderText("Nie mozna usunac zaznaczonych rodziców");
+            alert.setContentText("Rodzice są przypisani do ucznia");
+            alert.showAndWait();
 
 
             e.printStackTrace();
