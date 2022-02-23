@@ -318,7 +318,11 @@ public class NauczycielController {
             pst.executeUpdate();
 
         } catch (SQLException e) {
-            e.printStackTrace();
+            Alert alert = new Alert(Alert.AlertType.ERROR);
+            alert.setTitle("Blad");
+            alert.setHeaderText("Nie mozna usunac zaznaczonego nauczyciela");
+            alert.setContentText("Nauczyciel jest przypisany do przedmiotu");
+            alert.showAndWait();
         }
     }
 

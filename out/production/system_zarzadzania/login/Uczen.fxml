@@ -25,38 +25,37 @@
          <Font size="14.0" />
       </font>
     </MenuButton>
-    <TableView fx:id="idTabela" layoutX="43.0" layoutY="100.0" prefHeight="363.0" prefWidth="531.0" AnchorPane.bottomAnchor="157.0">
+    <TableView fx:id="idTabela" layoutX="16.0" layoutY="100.0" prefHeight="363.0" prefWidth="599.0" AnchorPane.bottomAnchor="157.0">
         <columns>
             <TableColumn fx:id="idTabelaImie" prefWidth="75.0" text="IMIE" />
             <TableColumn fx:id="idTabelaNazwisko" prefWidth="75.0" text="NAZWISKO" />
-            <TableColumn fx:id="idTabelaAdres" prefWidth="110.4000244140625" text="ADRES" />
-            <TableColumn fx:id="idTabelaTelefon" prefWidth="94.4000244140625" text="TELEFON" />
-            <TableColumn fx:id="idTabelaRodzic" prefWidth="124.79998779296875" text="RODZIC" />
-            <TableColumn fx:id="idTabelaKlasa" minWidth="6.4000244140625" prefWidth="49.60003662109375" text="KLASA" />
+            <TableColumn fx:id="idTabelaAdres" prefWidth="93.60003662109375" text="ADRES" />
+            <TableColumn fx:id="idTabelaTelefon" prefWidth="90.4000244140625" text="TELEFON" />
+            <TableColumn fx:id="idTabelaRodzic" prefWidth="109.60003662109375" text="MATKA" />
+            <TableColumn fx:id="idTabelaRodzic1" prefWidth="108.0" text="OJCIEC" />
+            <TableColumn fx:id="idTabelaKlasa" minWidth="6.4000244140625" prefWidth="44.800048828125" text="KLASA" />
         </columns>
     </TableView>
     <TextField fx:id="newImie" layoutX="43.0" layoutY="464.0" prefHeight="25.0" prefWidth="77.0" promptText="imie" visible="false" />
     <TextField fx:id="newNazwisko" layoutX="120.0" layoutY="464.0" prefHeight="25.0" prefWidth="71.0" promptText="nazwisko" visible="false" />
     <TextField fx:id="newAdres" layoutX="191.0" layoutY="464.0" prefHeight="25.0" prefWidth="77.0" promptText="adres" visible="false" />
     <TextField fx:id="newTelefon" layoutX="269.0" layoutY="464.0" prefHeight="25.0" prefWidth="77.0" promptText="telefon" visible="false" />
-    <ChoiceBox fx:id="newKlasa" layoutX="436.0" layoutY="464.0" prefWidth="99.0" visible="false" />
-    <Button fx:id="newPokaz" layoutX="588.0" layoutY="90.0" mnemonicParsing="false" onAction="#newPokazPola" prefHeight="30.0" prefWidth="178.0" style="-fx-background-color: #00FF33;" text="Dodaj nowego ucznia" textFill="WHITE">
+    <ChoiceBox fx:id="newKlasa" layoutX="445.0" layoutY="464.0" prefHeight="26.0" prefWidth="78.0" visible="false" />
+    <Button fx:id="newPokaz" layoutX="621.0" layoutY="88.0" mnemonicParsing="false" onAction="#newPokazPola" prefHeight="30.0" prefWidth="164.0" style="-fx-background-color: #00FF33;" text="Dodaj nowego ucznia" textFill="WHITE">
       <font>
          <Font size="14.0" />
       </font></Button>
-    <ChoiceBox fx:id="newRodzic" layoutX="346.0" layoutY="464.0" prefHeight="25.0" prefWidth="90.0" visible="false" />
-    <ChoiceBox fx:id="newLogin" layoutX="533.0" layoutY="464.0" prefHeight="25.0" prefWidth="77.0" visible="false" />
-    <Button layoutX="588.0" layoutY="170.0" mnemonicParsing="false" onAction="#deleteUczenOnAction" prefHeight="30.0" prefWidth="178.0" style="-fx-background-color: #00FF33;" text="Usuń zaznaczonego ucznia" textFill="WHITE" />
-    <TextField fx:id="editImie" layoutX="43.0" layoutY="500.0" prefHeight="25.0" prefWidth="77.0" promptText="imie" visible="false" />
+    <ChoiceBox fx:id="newRodzic" layoutX="346.0" layoutY="464.0" prefHeight="26.0" prefWidth="99.0" visible="false" />
+    <Button layoutX="621.0" layoutY="163.0" mnemonicParsing="false" onAction="#deleteUczenOnAction" prefHeight="30.0" prefWidth="164.0" style="-fx-background-color: #00FF33;" text="Usuń zaznaczonego ucznia" textFill="WHITE" />
+    <TextField fx:id="editImie" editable="false" layoutX="43.0" layoutY="500.0" prefHeight="25.0" prefWidth="77.0" promptText="imie" visible="false" />
     <TextField fx:id="editNazwisko" layoutX="120.0" layoutY="500.0" prefHeight="25.0" prefWidth="71.0" promptText="nazwisko" visible="false" />
     <TextField fx:id="editAdres" layoutX="191.0" layoutY="500.0" prefHeight="25.0" prefWidth="77.0" promptText="adres" visible="false" />
     <TextField fx:id="editTelefon" layoutX="269.0" layoutY="500.0" prefHeight="25.0" prefWidth="77.0" promptText="telefon" visible="false" />
-    <ChoiceBox fx:id="editRodzic" layoutX="346.0" layoutY="500.0" prefHeight="25.0" prefWidth="90.0" visible="false" />
-    <ChoiceBox fx:id="editKlasa" layoutX="436.0" layoutY="500.0" prefWidth="99.0" visible="false" />
-    <ChoiceBox fx:id="editLogin" layoutX="533.0" layoutY="500.0" prefHeight="25.0" prefWidth="77.0" visible="false" />
-    <Button fx:id="editPokaz" layoutX="588.0" layoutY="131.0" mnemonicParsing="false" onAction="#editPokazPola" prefHeight="30.0" prefWidth="178.0" style="-fx-background-color: #00FF33;" text="Edytuj zaznaczonego ucznia" textFill="WHITE" />
-    <Button fx:id="newZapisz" layoutX="624.0" layoutY="464.0" mnemonicParsing="false" onAction="#addUczenOnAction" prefHeight="25.0" prefWidth="49.0" text="zapisz" visible="false" />
-    <Button fx:id="editZapisz" layoutX="624.0" layoutY="500.0" mnemonicParsing="false" onAction="#editUczenOnAction" text="zapisz" visible="false" />
+    <ChoiceBox fx:id="editRodzic" layoutX="346.0" layoutY="500.0" prefHeight="26.0" prefWidth="99.0" visible="false" />
+    <ChoiceBox fx:id="editKlasa" layoutX="445.0" layoutY="500.0" prefHeight="26.0" prefWidth="78.0" visible="false" />
+    <Button fx:id="editPokaz" layoutX="622.0" layoutY="126.0" mnemonicParsing="false" onAction="#editPokazPola" prefHeight="30.0" prefWidth="164.0" style="-fx-background-color: #00FF33;" text="Edytuj zaznaczonego ucznia" textFill="WHITE" />
+    <Button fx:id="newZapisz" layoutX="628.0" layoutY="464.0" mnemonicParsing="false" onAction="#addUczenOnAction" prefHeight="25.0" prefWidth="49.0" text="zapisz" visible="false" />
+    <Button fx:id="editZapisz" layoutX="628.0" layoutY="500.0" mnemonicParsing="false" onAction="#editUczenOnAction" text="zapisz" visible="false" />
     <Label layoutX="342.0" layoutY="7.0" text="Uczniowie">
         <font>
             <Font size="26.0" />

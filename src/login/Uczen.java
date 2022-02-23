@@ -4,15 +4,16 @@ import javafx.beans.property.SimpleStringProperty;
 
 public class Uczen {
 
-    private final SimpleStringProperty imie, nazwisko, adres, telefon, rodzic, klasa;
+    private final SimpleStringProperty imie, nazwisko, adres, telefon, rodzic,rodzic1, klasa;
 
     public Uczen(String imie, String nazwisko, String adres, String telefon,
-                 String rodzic, String klasa) {
+                 String rodzic,String rodzic1, String klasa) {
         this.imie = new SimpleStringProperty(imie);
         this.nazwisko = new SimpleStringProperty(nazwisko);
         this.adres = new SimpleStringProperty(adres);
         this.telefon = new SimpleStringProperty(telefon);
         this.rodzic = new SimpleStringProperty(rodzic);
+        this.rodzic1 = new SimpleStringProperty(rodzic1);
         this.klasa = new SimpleStringProperty(klasa);
 
     }
@@ -24,6 +25,16 @@ public class Uczen {
     public void setRodzic(String rodzic) {
         this.rodzic.set(rodzic);
     }
+
+    public String getRodzic1() {
+        return rodzic1.get();
+    }
+
+    public void setRodzic1(String rodzic1) {
+        this.rodzic1.set(rodzic1);
+    }
+
+
 
     public String getImie() {
         return imie.get();

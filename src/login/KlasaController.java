@@ -165,7 +165,7 @@ public class KlasaController {
             Alert alert = new Alert(Alert.AlertType.ERROR);
             alert.setTitle("Blad");
             alert.setHeaderText("Nie mozna usunac zaznaczonej klasy");
-            alert.setContentText("Dana klasa jest juz przypisana do ucznia");
+            alert.setContentText("Dana klasa jest przypisana do ucznia bądź przedmiotu");
             alert.showAndWait();
         }
     }

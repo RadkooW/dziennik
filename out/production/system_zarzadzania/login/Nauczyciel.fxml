@@ -46,7 +46,6 @@
    <TextField fx:id="editNazwisko" layoutX="120.0" layoutY="500.0" prefHeight="25.0" prefWidth="71.0" promptText="nazwisko" visible="false" />
    <TextField fx:id="editAdres" layoutX="191.0" layoutY="500.0" prefHeight="25.0" prefWidth="77.0" promptText="adres" visible="false" />
    <TextField fx:id="editTelefon" layoutX="269.0" layoutY="500.0" prefHeight="25.0" prefWidth="77.0" promptText="telefon" visible="false" />
-   <ChoiceBox fx:id="editLogin" layoutX="346.0" layoutY="500.0" prefHeight="25.0" prefWidth="77.0" visible="false" />
    <Button fx:id="editPokaz" layoutX="576.0" layoutY="128.0" mnemonicParsing="false" onAction="#editPokazPola" prefHeight="30.0" prefWidth="206.0" style="-fx-background-color: #00FF33;" text="Edytuj zaznaczonego nauczyciela" textFill="WHITE" />
    <Button fx:id="newZapisz" layoutX="454.0" layoutY="464.0" mnemonicParsing="false" onAction="#addNauczycielOnAction" prefHeight="25.0" prefWidth="49.0" text="zapisz" visible="false" />
    <Button fx:id="editZapisz" layoutX="454.0" layoutY="500.0" mnemonicParsing="false" onAction="#editNauczycielOnAction" text="zapisz" visible="false" />

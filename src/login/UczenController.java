@@ -28,7 +28,7 @@ public class UczenController {
     private MenuItem idMenuKlasa, idMenuNauczyciel, idMenuPrzedmiot, idMenuRodzic;
     @FXML
     public TableColumn<Uczen, String> idTabelaImie, idTabelaNazwisko, idTabelaAdres, idTabelaTelefon,
-            idTabelaRodzic,idTabelaKlasa;
+            idTabelaRodzic,idTabelaRodzic1, idTabelaKlasa;
     @FXML
     private TableView<Uczen> idTabela;
     @FXML
@@ -69,8 +69,10 @@ public class UczenController {
     ResultSet rs;
     ObservableList<String> klasy = FXCollections.observableArrayList();
     ObservableList<String> rodzice = FXCollections.observableArrayList();
+    ObservableList<String> rodzice1 = FXCollections.observableArrayList();
     ObservableList<String> listaKlas = FXCollections.observableArrayList();
     ObservableList<String> listaRodzicow = FXCollections.observableArrayList();
+    ObservableList<String> listaRodzicow1 = FXCollections.observableArrayList();
 
     /**
      * @param event przechowuje element wybrany z menu
@@ -109,7 +111,7 @@ public class UczenController {
             while (rs.next()) {
                 ol.add(new Uczen(rs.getString(1), rs.getString(2),
                         rs.getString(3), rs.getString(4),
-                        listaRodzicow.get(i), listaKlas.get(i)));
+                        listaRodzicow.get(i), listaRodzicow1.get(i), listaKlas.get(i)));
                 i++;
             }
         } catch (SQLException e) {
@@ -121,8 +123,10 @@ public class UczenController {
         idTabelaAdres.setCellValueFactory(new PropertyValueFactory<>("adres"));
         idTabelaTelefon.setCellValueFactory(new PropertyValueFactory<>("telefon"));
         idTabelaRodzic.setCellValueFactory(new PropertyValueFactory<>("rodzic"));
+        idTabelaRodzic1.setCellValueFactory(new PropertyValueFactory<>("rodzic1"));
         idTabelaKlasa.setCellValueFactory(new PropertyValueFactory<>("klasa"));
 
+        System.out.println(rodzice1);
 
         idTabela.setItems(ol);
         return ol;
@@ -134,6 +138,7 @@ public class UczenController {
         idTabelaAdres.setCellValueFactory(new PropertyValueFactory<>("adres"));
         idTabelaTelefon.setCellValueFactory(new PropertyValueFactory<>("telefon"));
         idTabelaRodzic.setCellValueFactory(new PropertyValueFactory<>("rodzic"));
+        idTabelaRodzic1.setCellValueFactory(new PropertyValueFactory<>("rodzic1"));
         idTabelaKlasa.setCellValueFactory(new PropertyValueFactory<>("klasa"));
 
         dataList = uzupelnijTabele();
@@ -207,15 +212,18 @@ public class UczenController {
     private void znajdzRodzica() {
 
         String imieINazwiskoRodzica;
+        String imieINazwiskoRodzica1;
 
         try {
             con = DBConnect.getDBConnection();
-            pst = con.prepareStatement("SELECT rodzic.imie, rodzic.nazwisko FROM rodzic INNER JOIN uczen ON rodzic.id_rodzic=uczen.id_rodzic ORDER BY uczen.id_uczen");
+            pst = con.prepareStatement("SELECT rodzic.imie, rodzic.nazwisko,rodzic.imie1, rodzic.nazwisko1 FROM rodzic INNER JOIN uczen ON rodzic.id_rodzic=uczen.id_rodzic ORDER BY uczen.id_uczen");
             rs = pst.executeQuery();
 
             while (rs.next()) {
                 imieINazwiskoRodzica = rs.getString(1) + " " + rs.getString(2);
+                imieINazwiskoRodzica1 = rs.getString(3) + " " + rs.getString(4);
                 listaRodzicow.add(imieINazwiskoRodzica);
+                listaRodzicow1.add(imieINazwiskoRodzica1);
             }
         } catch (SQLException e) {
             e.printStackTrace();
@@ -253,16 +261,19 @@ public class UczenController {
     private void wypiszRodzicow() {
 
         String imieINazwiskoRodzica;
+        String imieINazwiskoRodzica1;
 
         try {
             con = DBConnect.getDBConnection();
-            pst = con.prepareStatement("SELECT imie, nazwisko FROM rodzic");
+            pst = con.prepareStatement("SELECT imie, nazwisko, imie1, nazwisko1 FROM rodzic");
 
             rs = pst.executeQuery();
 
             while (rs.next()) {
                 imieINazwiskoRodzica = rs.getString(1) + " " + rs.getString(2);
+                imieINazwiskoRodzica1 = rs.getString(3) + " " + rs.getString(4);
                 rodzice.add(imieINazwiskoRodzica);
+                rodzice1.add(imieINazwiskoRodzica1);
 
             }
 
